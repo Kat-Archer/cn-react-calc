@@ -1,0 +1,75 @@
+.calc {
+    display: flex;
+    flex-flow: column wrap;
+    width: 20rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    border: indigo 3px solid;
+    background-color: indigo;
+    border-radius: 10px
+
+}
+
+.screen-container {
+    width: 20rem;
+    background-color: darkslateblue;
+    color: lavender;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px
+}
+
+.screen1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-screen {
+    width: 20rem;
+    margin: 0;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 2rem;
+
+}
+
+.bottom-screen {
+    width: 20rem;
+    margin: 0;
+    font-size: 48px;
+    font-weight: lighter;
+    height: 4rem;
+
+}
+
+.button-container {
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+button {
+    width: 5rem;
+    height: 4rem;
+    font-size: 36px;
+    background-color: lavender;
+    border: rgb(146, 146, 146) 1px solid;
+    color: indigo;
+    border-radius: 10px
+}
+
+.clrButton {
+    flex-grow: 3;
+    width: 15rem;
+}
+
+.zerButton {
+    flex-grow: 2;
+}
+
+.funButton, .eqlButton {
+    background-color: slateblue;
+    color: lavender;
+}
